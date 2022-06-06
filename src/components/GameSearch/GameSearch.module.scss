@@ -1,0 +1,15 @@
+@import 'styles/colors.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.searchbar {
+  width: 50%;
+  margin-bottom: 10;
+}
+
+.icon {
+  line-height: 0;
+}

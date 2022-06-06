@@ -1,21 +1,25 @@
 {
-  "extends": [
-    "next",
-    "next/core-web-vitals",
-    "airbnb",
-    "airbnb-typescript",
-    "airbnb/hooks"
-  ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  },
-  "rules": {
-    "react/jsx-one-expression-per-line": "off",
-    "react/react-in-jsx-scope": "off",
-    "react/function-component-definition": "off",
-    "react/jsx-props-no-spreading": "off",
-    "@typescript-eslint/no-unused-vars": "warn",
-    "@typescript-eslint/semi": "off"
-  }
+    "extends": [
+        "next",
+        "next/core-web-vitals",
+        "airbnb",
+        "airbnb-typescript",
+        "airbnb/hooks"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "react/jsx-one-expression-per-line": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/function-component-definition": "off",
+        "react/jsx-props-no-spreading": "off",
+        "@typescript-eslint/no-unused-vars": "warn",
+        "@typescript-eslint/semi": "off",
+        "@typescript-eslint/indent": "off",
+        "@typescript-eslint/comma-dangle": "off",
+        "react/jsx-indent": "off",
+        "react/jsx-indent-props": "off"
+    }
 }

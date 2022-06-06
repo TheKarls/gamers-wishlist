@@ -1,10 +1,11 @@
 import { NextPage } from 'next'
-import GameSearch from 'components/GameSearch'
+import GameSearch from 'components/GameSearch/GameSearch'
+import styles from 'styles/index.module.scss'
 
-const Home: NextPage = () => (
-  <>
-    <h1>HI</h1> <GameSearch />
-  </>
+const Index: NextPage = () => (
+    <div className={styles.container}>
+        <GameSearch />
+    </div>
 )
 
-export default Home
+export default Index
