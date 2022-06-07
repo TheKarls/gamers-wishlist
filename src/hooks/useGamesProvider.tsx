@@ -10,7 +10,6 @@ export const getHintList = async (typing: string): Promise<[]> => {
         },
         data: `fields name; limit 5; search "${typing}";`,
     })
-    console.log(response.data)
     return response.data
 }
 
