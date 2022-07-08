@@ -1,0 +1,18 @@
+.navbar {
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.toggle {
+    .dark {
+        height: 100%;
+        color: black;
+    }
+
+    .light {
+        height: 100%;
+        color: yellow;
+    }
+}

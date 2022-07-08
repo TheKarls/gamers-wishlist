@@ -1,0 +1,48 @@
+@use './colors' as *;
+
+.dark {
+    .text {
+        color: $text;
+    }
+    .background {
+        background-color: $background;
+    }
+    .navbg {
+        background-color: $background;
+    }
+    .button {
+        background-color: $primary;
+    }
+
+    .rs-toggle-presentation {
+        background-color: $primary;
+        color: $secondary;
+    }
+}
+
+.light {
+    .text {
+        color: $text-light;
+    }
+    .background {
+        background-color: $background-light;
+    }
+    .navbg {
+        background-color: $background-light;
+    }
+    .button {
+        background-color: $primary-light;
+    }
+
+    .rs-toggle-presentation {
+        background-color: $primary-light;
+        color: $secondary-light;
+    }
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

@@ -1,10 +1,15 @@
 import 'rsuite/dist/rsuite.min.css'
-import '../styles/colors.scss'
 import '../styles/globals.scss'
+import '../styles/theme/theme.scss'
 import type { AppProps } from 'next/app'
+import { ThemeProvider } from 'src/context/ThemeContext'
 
 function MyApp({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />
+  return (
+    <ThemeProvider>
+      <Component {...pageProps} />
+    </ThemeProvider>
+  )
 }
 
 export default MyApp
